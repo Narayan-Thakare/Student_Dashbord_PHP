@@ -80,7 +80,8 @@ if(isset($Email)){
         text-decoration:none;
         color:#313131;
         font-weight:bold;
-    
+
+	      
         
       }
       .menu2{
