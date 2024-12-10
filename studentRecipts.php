@@ -13,6 +13,7 @@ if($Email==true){
 
 if(isset($Email)){
 
+	
   $mb = $Email;
 
   $info = "SELECT student_id, full_name, gender, dob, email, branch, student_number, parent_number, course, c_name, batch_timing, photofile, city FROM student_admission WHERE email = '$mb'";
